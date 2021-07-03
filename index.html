@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css" type="text/css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="footer.css" type="text/css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <div class="head">
+                <img class="image1" src="logo1.png">
+            </div>
+            
+            
+            <nav >
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle">
+
+                
+                <ul>
+                    <li><a href="https://ours.auzzio.com/howitworks">How it works</a></li>
+                    <li><a href="https://ours.auzzio.com/providerlanding">My Listing</a></li>
+                    <li><a href="https://ours.auzzio.com/categories">Categories</a></li>
+                    <li><a href="https://ours.auzzio.com/search">Search</a></li>
+                    <li><a href="https://ours.auzzio.com/user/login">Login</a></li>
+                </ul>
+    
+            </nav>
+
+        </div>
+        <div class="main">
+            <div class="left-section">
+                <form id="signup-form" class="signup-form" onsubmit="return validation()">
+                    <h2 class="main-head">Provider Registration</h2>
+                    <select class="account"  name="atype">
+                        <option selected="selected" disabled="disabled" value="1">Account Type</option>
+                        <option value="2">Personal Account</option>
+                        <option value="3">Bussiness Account</option>
+                    </select>
+                    <br>
+                <input type="text" class="first-name" placeholder="First name" name="fname"> 
+                <br>
+                <input type="text" class="last-name" placeholder="Last name" name="lname"> 
+                <br>
+                <input type="date" class="date-birth" placeholder="Date of birth" name="db">
+                <br>
+                <select class="gender" name="gender">
+                    <option selected="selected" disabled="disabled" value="0">Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Others</option>
+                </select>
+                <br>
+                <input type="email" class="mail" placeholder="Email" name="email">
+                <br>
+                
+                <input type="text" class="number" placeholder="Mobile number" value="Mobile number">
+                <input type="button" class="otp"  placeholder="Send OTP" value="Send OTP">
+               
+                <br>
+                <input type="password" class="password" placeholder="Password"  name="new password">
+                <br>
+                <input type="password"   class="repassword"  placeholder="Confirm Password" name="repassword">
+                <br>
+                <input type="text" class="code" placeholder="Referal Code" name="code">
+                <br>
+                <p class="para">By registering , You agree to our <a href="">Privacy Policy</a> & <a href="">Terms of Use</a></p>
+                
+                <button class="button">Register</button>
+                <br>
+                <p class="para1">Already Have An Account?<a href="">Login</a></p>
+                
+
+                </form>
+            </div>
+            <div class="right-section">
+                <h2 class="right">Register with Auzzio!!!</h2>
+                <img class="image" src="a2.png">
+                <br>
+                <h3 class="change">Experience change</h3>
+                <p class="para3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate sagittis, tincidunt aenean eleifend accumsan. Lorem fermentum tristique purus elementum auctor mauris quis arcu. Netus arcu nunc neque elementum urna adipiscing scelerisque pharetra in. Justo sit egestas tellus vulputate.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="pre-footer-content">
+                <div class="pre-footer-item">
+                    <div class="discover-container">
+                        <div class="item-1">
+                            <h3>Discover</h3>
+                        </div>
+                        <div class="item-2"><a class="a1" href="https://ours.auzzio.com/aboutus">About Us</a></div>
+                        <div class="item-3"><a class="a1" href="https://ours.auzzio.com/contactus">Contact Us</a></div>
+                        <div class="item-4"><a class="a1" href="https://ours.auzzio.com/careers">Careers</a></div>
+                    </div>
+                </div>
+                <div class="pre-footer-item">
+                    <div class="legal-container">
+                        <div class="item-1">
+                            <h3>Legal</h3>
+                        </div>
+                        <div class="item-2"><a class="c1" href="https://ours.auzzio.com/termsofuse">Terms of Use</a></div>
+                        <div class="item-3"><a class="c1" href="https://ours.auzzio.com/privacypolicy">Privacy Policy</a></div>
+                    </div>
+                </div>
+                <div class="pre-footer-item">
+                    <div class="services-container">
+                        <div class="item-1">
+                            <h3>Services</h3>
+                        </div>
+                        <div class="item-2"><a class="b2" href="https://ours.auzzio.com/productsservices">Listing Platform</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-footer-item">
+                    <div class="faq-container">
+                        <div class="item-1">
+                            <h3>FAQ</h3>
+                        </div>
+                        <div class="item-2"><a class="d1" href="https://ours.auzzio.com/searchfaq">Search FAQ</a></div>
+                        <div class="item-3"><a class="d1" href="https://ours.auzzio.com/providerfaq">Provider FAQ</a></div>
+                    </div>
+                </div>
+        
+                <div class="pre-footer-item">
+                    <div class="social-container">
+                        <div class="item-1">
+                            <h3>Follow Us</h3>
+                        </div>
+                        <div class="social-icons-container">
+                            <div class="item-2"> <a href="https://www.facebook.com/auzzio"> <i class="fa fa-facebook"></i></a>
+                            </div>
+                            <div class="item-3"> <a href="https://twitter.com/auzzio_in"> <i class="fa fa-twitter"></i></a>
+                            </div>
+                            <div class="item-4"> <a href="https://www.linkedin.com/company/auzzio-innovations-private-limited">
+                                    <i class="fa fa-linkedin"></i></a></div>
+                            <div class="item-5"> <a href="https://www.instagram.com/auzzio_in/"> <i
+                                        class="fa fa-instagram"></i></a></div>
+                        </div>
+        
+                    </div>
+                </div>
+        
+            </div>
+            <hr>
+            <div class="copy-right-container">
+                
+        
+            
+                    <p class="p1">Copyright &#169; Auzzio Innovations Pvt Ltd 2021. All rights reserved</p>
+                
+            </div>
+        
+        
+        </div>
+    </div>
+</body>
+</html>
